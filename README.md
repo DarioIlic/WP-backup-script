@@ -15,3 +15,5 @@ BKP_DIR=$BACKUP_DIR/html -> on my end it is /html since I use LiteSpeed and file
 
 Rest is really self-explanatory.
 If you need help with setting it up, you can visit my site and contact me via contact form.
+
+I also added the part to remove all backups older than 14 days. You can set it for longer or lesser period by adjusting the +14 value in the last line, just next to -mtime
