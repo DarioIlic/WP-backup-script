@@ -8,8 +8,8 @@ BACKUP_DIR=/path/to/backup -> backup folder, something like /home/backup
 HOME_DIR=/path/to/files/and/folder/of/wordpress/site -> path to site, depends on the WebServer used
 
 DB=database_name -> this is your database name, you can find it in wp-config.php next to define( 'DB_NAME',
-USER=dario -> this is your database user, you can find it in wp-config.php next to define( 'DB_USER',
-PASSWD=TQhj6b7thuxULaJe -> this is your database password, you can find it in wp-config.php next to define( 'DB_PASSWORD',
+USER=database_user -> this is your database user, you can find it in wp-config.php next to define( 'DB_USER',
+PASSWD=database_password -> this is your database password, you can find it in wp-config.php next to define( 'DB_PASSWORD',
 
 BKP_DIR=$BACKUP_DIR/html -> on my end it is /html since I use LiteSpeed and files are stored in there. On some it might public_html so, adjust that as well
 
